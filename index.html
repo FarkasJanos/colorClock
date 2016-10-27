@@ -10,14 +10,14 @@ Released under the MIT license: http://jsbin.mit-license.org
 <meta name="robots" content="noindex">
 <html>
 <head>
-<meta name="description" content="Clock">
+  <meta name="description" content="Clock">
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Clock</title>
   
   <link href="https://fonts.googleapis.com/css?family=Fredericka+the+Great" rel="stylesheet">
   
-<style id="jsbin-css">
+<style>
 *{
   margin:0;
   padding:0;
@@ -40,8 +40,8 @@ html, body {
 </style>
 </head>
 <body>
-  <div id="clock">12:13:14</div>
-<script id="jsbin-javascript">
+  <div id="clock"></div>
+<script>
 function colorClock() {
   var date = new Date(),
       hours = date.getHours(),
